@@ -24,7 +24,7 @@ node {
     stage('Push to Docker Registry'){
 
             echo "Image push complete"
-        }
+        
     }
 
     stage('Run App'){
